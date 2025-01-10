@@ -32,4 +32,4 @@ let firstName = "Joana"
 let lastName = "Maria"
 console.log(firstName, lastName)
 console.log(firstName + " " + lastName) // concatenação com sinal de +
-console.log(`${firstName} ${lastName}`)
+console.log(`${firstName} ${lastName}`) // templetes litorel atualização desde 2015
