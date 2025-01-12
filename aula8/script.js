@@ -19,3 +19,36 @@ console.log(texto.toLocaleLowerCase()) // Letra convertera todo o texto para min
 console.log(texto.trim()) // trim : remove espaco em branco no inicio e final
 console.log(texto.repeat(2)) // repeat vai repetir o valor
 console.log(texto.replace("Estou", "Eu estou")) // replace localiza a palavra e adiciona outra.
+
+// Number Methods
+let num1 = 10
+num1.toString(num1)
+console.log(num1)
+console.log(num1.toFixed(2))
+console.log(num1.toPrecision(2))
+console.log(num1.toString(2))
+
+// Metodos Matematicos
+let num2 = 2.5
+console.log(Math.round(num2)) // coloca o numero inteiro
+console.log(Math.ceil(num2)) // coloca o numero como inteiro para cima
+console.log(Math.floor(num2)) // coloca o numero inteiro para baixo
+console.log(Math.sqrt(num2)) // raiz quadrada
+console.log(Math.pow(num2, 3)) // potencia
+console.log(Math.abs(num2)) // valor absoluto
+console.log(Math.round(Math.random() * 10 + 1))
+
+// Objetos (Multiplos valores) - tesla
+
+let carName = "Cybertruck"
+let carRange = 340
+let carMaxSpeed = 112
+let carHorsePower = 600
+
+let car = {
+  carName: "Cybertruck",
+  carRange: 340,
+  carMaxSpeed: 112,
+  carHorsePower: 600,
+}
+console.log(car)
