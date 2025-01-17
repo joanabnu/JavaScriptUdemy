@@ -26,4 +26,14 @@ let y
 // y = cart. includes('Agua') // Verifica se existe esse item na listas()arrays
 
 y = cart.indexOf("Arroz")
+y = cart.slice(1, 3).reverse().toString().includes("Carne")
+console.log(y)
+console.log(cart)
+
+// Arrays (Nesting)
+let cartNumbers = [cart, numbers]
+console.log(cartNumbers)
+cart.push(numbers)
+console.log(cart)
+y = cart[6][1]
 console.log(y)
